@@ -64,12 +64,6 @@ const Diapositiva = () => {
           </p>
         </div>
       </div>
-
-      <style jsx>{`
-        .card {
-          background-color: #fff;
-        }
-      `}</style>
     </>
   );
 };
