@@ -57,9 +57,9 @@ const Diapositiva = () => {
       <div className="card shadow p-3 mb-5 bg-body rounded">
         <div className="card-body">
           <div className="card-title text-center p-2">
-            <h3>{dataDiapositiva[numero].title}</h3>
+            <h3 className="fs-1 fw-bold">{dataDiapositiva[numero].title}</h3>
           </div>
-          <p className="card-text text-center pb-5">
+          <p className="card-text text-center pb-5 fs-4">
             {dataDiapositiva[numero].text}
           </p>
         </div>
